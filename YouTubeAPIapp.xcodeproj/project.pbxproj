@@ -8,21 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		0200365C2C985FA1004AB8D4 /* YouTubeAPIappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200365B2C985FA1004AB8D4 /* YouTubeAPIappApp.swift */; };
-		0200365E2C985FA1004AB8D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200365D2C985FA1004AB8D4 /* ContentView.swift */; };
+		0200365E2C985FA1004AB8D4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200365D2C985FA1004AB8D4 /* HomeView.swift */; };
 		020036602C985FA2004AB8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0200365F2C985FA2004AB8D4 /* Assets.xcassets */; };
 		020036632C985FA2004AB8D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020036622C985FA2004AB8D4 /* Preview Assets.xcassets */; };
 		020036652C985FA2004AB8D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020036642C985FA2004AB8D4 /* Persistence.swift */; };
 		020036682C985FA2004AB8D4 /* YouTubeAPIapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 020036662C985FA2004AB8D4 /* YouTubeAPIapp.xcdatamodeld */; };
+		020036722C986030004AB8D4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020036712C986030004AB8D4 /* DataService.swift */; };
+		020036742C98610A004AB8D4 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020036732C98610A004AB8D4 /* FeedView.swift */; };
+		020036762C986124004AB8D4 /* VideoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020036752C986124004AB8D4 /* VideoRowView.swift */; };
+		020036782C98613B004AB8D4 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020036772C98613B004AB8D4 /* VideoDetailView.swift */; };
+		0200367A2C98620F004AB8D4 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020036792C98620F004AB8D4 /* Video.swift */; };
+		0200367C2C986243004AB8D4 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0200367B2C986243004AB8D4 /* Playlist.swift */; };
+		022BCBAE2C99735F004A1812 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 022BCBAD2C99735F004A1812 /* Config.xcconfig */; };
+		022BCBB22C99A11A004A1812 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 022BCBB12C99A11A004A1812 /* YouTubePlayerKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		020036582C985FA1004AB8D4 /* YouTubeAPIapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeAPIapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0200365B2C985FA1004AB8D4 /* YouTubeAPIappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPIappApp.swift; sourceTree = "<group>"; };
-		0200365D2C985FA1004AB8D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0200365D2C985FA1004AB8D4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0200365F2C985FA2004AB8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020036622C985FA2004AB8D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		020036642C985FA2004AB8D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		020036672C985FA2004AB8D4 /* YouTubeAPIapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YouTubeAPIapp.xcdatamodel; sourceTree = "<group>"; };
+		020036712C986030004AB8D4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		020036732C98610A004AB8D4 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		020036752C986124004AB8D4 /* VideoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRowView.swift; sourceTree = "<group>"; };
+		020036772C98613B004AB8D4 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		020036792C98620F004AB8D4 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0200367B2C986243004AB8D4 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		022BCBAD2C99735F004A1812 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		022BCBAF2C99749D004A1812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022BCBB22C99A11A004A1812 /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +72,16 @@
 		0200365A2C985FA1004AB8D4 /* YouTubeAPIapp */ = {
 			isa = PBXGroup;
 			children = (
+				022BCBAF2C99749D004A1812 /* Info.plist */,
 				0200365B2C985FA1004AB8D4 /* YouTubeAPIappApp.swift */,
-				0200365D2C985FA1004AB8D4 /* ContentView.swift */,
+				0200366E2C985FCB004AB8D4 /* Services */,
+				0200366F2C985FE4004AB8D4 /* Views */,
+				020036702C985FEC004AB8D4 /* Models */,
 				0200365F2C985FA2004AB8D4 /* Assets.xcassets */,
 				020036642C985FA2004AB8D4 /* Persistence.swift */,
 				020036662C985FA2004AB8D4 /* YouTubeAPIapp.xcdatamodeld */,
 				020036612C985FA2004AB8D4 /* Preview Content */,
+				022BCBAD2C99735F004A1812 /* Config.xcconfig */,
 			);
 			path = YouTubeAPIapp;
 			sourceTree = "<group>";
@@ -71,6 +92,34 @@
 				020036622C985FA2004AB8D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0200366E2C985FCB004AB8D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				020036712C986030004AB8D4 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0200366F2C985FE4004AB8D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0200365D2C985FA1004AB8D4 /* HomeView.swift */,
+				020036732C98610A004AB8D4 /* FeedView.swift */,
+				020036752C986124004AB8D4 /* VideoRowView.swift */,
+				020036772C98613B004AB8D4 /* VideoDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		020036702C985FEC004AB8D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				020036792C98620F004AB8D4 /* Video.swift */,
+				0200367B2C986243004AB8D4 /* Playlist.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 0200364F2C985FA1004AB8D4;
+			packageReferences = (
+				022BCBB02C99A11A004A1812 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = 020036592C985FA1004AB8D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020036632C985FA2004AB8D4 /* Preview Assets.xcassets in Resources */,
+				022BCBAE2C99735F004A1812 /* Config.xcconfig in Resources */,
 				020036602C985FA2004AB8D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0200367A2C98620F004AB8D4 /* Video.swift in Sources */,
+				020036722C986030004AB8D4 /* DataService.swift in Sources */,
 				020036652C985FA2004AB8D4 /* Persistence.swift in Sources */,
-				0200365E2C985FA1004AB8D4 /* ContentView.swift in Sources */,
+				0200365E2C985FA1004AB8D4 /* HomeView.swift in Sources */,
 				020036682C985FA2004AB8D4 /* YouTubeAPIapp.xcdatamodeld in Sources */,
+				020036762C986124004AB8D4 /* VideoRowView.swift in Sources */,
+				020036782C98613B004AB8D4 /* VideoDetailView.swift in Sources */,
+				020036742C98610A004AB8D4 /* FeedView.swift in Sources */,
 				0200365C2C985FA1004AB8D4 /* YouTubeAPIappApp.swift in Sources */,
+				0200367C2C986243004AB8D4 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +214,7 @@
 /* Begin XCBuildConfiguration section */
 		020036692C985FA2004AB8D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022BCBAD2C99735F004A1812 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -218,6 +278,7 @@
 		};
 		0200366A2C985FA2004AB8D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022BCBAD2C99735F004A1812 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -282,6 +343,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YouTubeAPIapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YouTubeAPIapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,6 +372,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YouTubeAPIapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YouTubeAPIapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -350,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		022BCBB02C99A11A004A1812 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		022BCBB12C99A11A004A1812 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 022BCBB02C99A11A004A1812 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		020036662C985FA2004AB8D4 /* YouTubeAPIapp.xcdatamodeld */ = {
